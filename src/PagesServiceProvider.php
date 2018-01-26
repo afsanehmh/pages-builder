@@ -22,9 +22,12 @@ class PagesServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/Views'=> base_path('resources/views/pages'),
             __DIR__.'/Config/main.php' => config_path('page.php'),
-            __DIR__.'/Migrations'=> database_path('/migrations'),
             __DIR__.'/../public' => public_path('pages'),
         ]);
+        
+           $this->publishes([
+            __DIR__ . '/Migrations' =>database_path('/migrations')
+        ], 
     }
 
     /**
