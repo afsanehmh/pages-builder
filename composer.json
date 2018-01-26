@@ -1,0 +1,20 @@
+{
+    "name": "tarnama/pages",
+    "description": "package for create pages in panel admin",
+    "authors": [
+        {
+            "name": "Afsanehmh",
+            "email": "kolsom.mohammadhoseini@gmail.com"
+        }
+    ],
+    "autoload" :{
+        "psr-4":{
+            "Tarnama\\Pages\\" : "src/"
+        }
+    },
+    "require": {
+        "Illuminate/Support" : "~5",
+        "morilog/jalali": "^2.3"
+
+    }
+}
