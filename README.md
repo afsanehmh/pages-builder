@@ -4,7 +4,8 @@ tarnam/pages
 - This package compatible with Laravel `>=5` 
 - this package for builder new page in admin panel
 
-`    in composer.json
+`   copy into composer.json
+
     "require": {
         "tarnama/pages" : "dev-master"
     },`
