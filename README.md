@@ -29,4 +29,7 @@ In your `config/app.php` add `'Tarnama\Pages\PagesServiceProvider::class,'` to t
 
 usages
 
+copy `php artisan vendor:publish --provider="Tarnama\Pages\PagesServiceProvider" --tag=migrations --force` in comand
+      `php artisan migrate`  
+      
 url => http://site-name.com/page for manage pages
