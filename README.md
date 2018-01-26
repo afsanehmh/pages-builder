@@ -4,9 +4,12 @@ tarnam/pages
 - This package compatible with Laravel `>=5` 
 - this package for builder new page in admin panel
 
-Run the Composer update comand
-
-    $ composer require tarnama/pages
+`    in composer.json
+    "require": {
+        "tarnama/pages" : "dev-master"
+    },`
+    
+then Run the Composer update in comand
 
 In your `config/app.php` add `'Tarnama\Pages\PagesServiceProvider::class,'` to the end of the `$providers` array
 
