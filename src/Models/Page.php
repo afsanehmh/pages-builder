@@ -17,6 +17,6 @@ class Page extends Model{
 
     public function createdAt($format='d %b %Y ساعت  H:i')
     {
-        return jDate::forge($this->created_at)->format($format);
+        return jDate($this->created_at)->format($format);
     }
 }
